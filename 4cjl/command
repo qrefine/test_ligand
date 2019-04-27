@@ -1,0 +1,7 @@
+ phenix.fetch_pdb 4cjl --mtz 
+
+ phenix.ready_set 4cjl.pdb
+
+ phenix.refine 4cjl.pdb 4cjl.mtz 9PA.cif
+
+ qr.finalise 4cjl_refine_001.pdb 4cjl_refine_001.mtz 9PA.cif > output_qr.finalise
