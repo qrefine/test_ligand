@@ -1,5 +1,5 @@
 # test_ligand
-We only tested the ligand of the non-covalent connection protein, some of the ligand don't have enough hydrongen after phenix.pdbtools.
+We only tested the ligand of the non-covalent connection protein, some of the ligand don't have enough hydrogens after phenix.pdbtools.
 
 phenix.fetch_pdb 4cjl --mtz        ----4cjl.pdb    4cjl.mtz
 
