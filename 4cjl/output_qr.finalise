@@ -1,8 +1,0 @@
-Starting Q|R finalise
-version:   v1.0-114-g3318f9  
-Sorry: Fatal problems interpreting model file:
-  Number of atoms with unknown nonbonded energy type symbols: 56
-    Please edit the model file to resolve the problems and/or supply a
-    CIF file with matching restraint definitions, along with
-    apply_cif_modification and apply_cif_link parameter definitions
-    if necessary.
