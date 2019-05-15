@@ -1,0 +1,276 @@
+# electronic Ligand Builder and Optimisation Workbench (eLBOW)
+#   - a module of PHENIX version 1.15.2-3472-
+#   - file written: Wed May 15 22:50:25 2019
+#
+#   Input file: /home/holly/phenix-1.15.2-3472/modules/chem_data/chemical_components/a/data_ABJ.cif
+#   Random seed: 3628800
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+ABJ        ABJ 'Unknown                  ' ligand 35 20 .
+#
+data_comp_ABJ
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ABJ         C19    C   CH3    0    .      -2.4196   -3.0631    0.4949
+ABJ         C14    C   CH1    0    .      -1.6622   -2.1371    1.4515
+ABJ         C20    C   CH3    0    .      -2.5450   -1.8195    2.6588
+ABJ         N11    N   NR5    0    .      -1.3177   -0.8948    0.7584
+ABJ         N15    N   N      0    .       0.0634   -0.8259    0.7202
+ABJ         C7     C   CR56   0    .      -1.8107    0.1341    0.0209
+ABJ         N3     N   N      0    .      -3.0711    0.5436   -0.2293
+ABJ         C6     C   CR16   0    .      -3.2885    1.6568   -0.9728
+ABJ         N5     N   N      0    .      -2.2379    2.3612   -1.4668
+ABJ         C2     C   CR6    0    .      -0.9947    1.9611   -1.2226
+ABJ         N1     N   NH2    0    .      -0.5318    3.0698   -2.0413
+ABJ         C4     C   CR56   0    .      -0.7710    0.8296   -0.4669
+ABJ         C13    C   CR5    0    .       0.4019    0.2187   -0.0220
+ABJ         C18    C   CR6    0    .       1.7680    0.4838   -0.1560
+ABJ         C28    C   CR16   0    .       2.4986   -0.1304   -1.1657
+ABJ         C27    C   CR16   0    .       2.4036    1.3252    0.7467
+ABJ         C30    C   CR16   0    .       3.7671    1.5527    0.6406
+ABJ         C26    C   CR16   0    .       4.4969    0.9388   -0.3686
+ABJ         C29    C   CR6    0    .       3.8611    0.0970   -1.2716
+ABJ         O33    O   OH1    0    .       4.5933   -0.5119   -2.2934
+ABJ        H201    H   HCH3   0    .      -1.9264   -1.4302    3.4693
+ABJ        H202    H   HCH3   0    .      -3.2878   -1.0750    2.3795
+ABJ        H203    H   HCH3   0    .      -3.0483   -2.7287    2.9902
+ABJ         H14    H   HCH1   0    .      -0.7618   -2.6240    1.7839
+ABJ        H191    H   HCH3   0    .      -1.8008   -3.2721   -0.3725
+ABJ        H192    H   HCH3   0    .      -2.6562   -3.9922    1.0028
+ABJ        H193    H   HCH3   0    .      -3.3355   -2.5822    0.1770
+ABJ         H6     H   HCR6   0    .      -4.3064    1.9860   -1.1735
+ABJ        H11N    H   HNH2   0    .      -1.1282    3.8536   -2.2028
+ABJ        H12N    H   HNH2   0    .       0.3842    3.0401   -2.4576
+ABJ         H28    H   HCR6   0    .       2.0000   -0.7911   -1.8743
+ABJ         H27    H   HCR6   0    .       1.8367    1.8021    1.5311
+ABJ         H30    H   HCR6   0    .       4.2673    2.2148    1.3509
+ABJ         H26    H   HCR6   0    .       5.5711    1.1181   -0.4521
+ABJ         H33    H   HOH1   0    .       4.9881   -1.3091   -1.9671
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+_chem_comp_bond.value_dist_neutron
+ABJ   C20     C14   single        1.529 0.020     1.529
+ABJ   C14     C19   single        1.532 0.020     1.532
+ABJ   C14     N11   single        1.464 0.020     1.464
+ABJ   N11     N15   aromatic      1.383 0.020     1.383
+ABJ   N11     C7    aromatic      1.358 0.020     1.358
+ABJ   N15     C13   aromatic      1.325 0.020     1.325
+ABJ   C7      N3    aromatic      1.349 0.020     1.349
+ABJ   C7      C4    aromatic      1.343 0.020     1.343
+ABJ   N3      C6    aromatic      1.356 0.020     1.356
+ABJ   C6      N5    aromatic      1.358 0.020     1.358
+ABJ   N5      C2    aromatic      1.329 0.020     1.329
+ABJ   C2      N1    single        1.454 0.020     1.454
+ABJ   C2      C4    aromatic      1.379 0.020     1.379
+ABJ   C4      C13   aromatic      1.395 0.020     1.395
+ABJ   C13     C18   single        1.398 0.020     1.398
+ABJ   C18     C28   aromatic      1.389 0.020     1.389
+ABJ   C18     C27   aromatic      1.388 0.020     1.388
+ABJ   C28     C29   aromatic      1.385 0.020     1.385
+ABJ   C27     C30   aromatic      1.386 0.020     1.386
+ABJ   C30     C26   aromatic      1.388 0.020     1.388
+ABJ   C26     C29   aromatic      1.389 0.020     1.389
+ABJ   C29     O33   single        1.397 0.020     1.397
+ABJ   C20    H201   single        0.970 0.020     1.090
+ABJ   C20    H202   single        0.970 0.020     1.090
+ABJ   C20    H203   single        0.970 0.020     1.090
+ABJ   C14     H14   single        0.970 0.020     1.090
+ABJ   C19    H191   single        0.970 0.020     1.090
+ABJ   C19    H192   single        0.970 0.020     1.090
+ABJ   C19    H193   single        0.970 0.020     1.090
+ABJ   C6      H6    single        0.930 0.020     1.080
+ABJ   N1     H11N   single        0.860 0.020     1.020
+ABJ   N1     H12N   single        0.860 0.020     1.020
+ABJ   C28     H28   single        0.930 0.020     1.080
+ABJ   C27     H27   single        0.930 0.020     1.080
+ABJ   C30     H30   single        0.930 0.020     1.080
+ABJ   C26     H26   single        0.930 0.020     1.080
+ABJ   O33     H33   single        0.850 0.020     0.980
+#
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ABJ  H193     C19    H192         109.48 3.000
+ABJ  H193     C19    H191         109.46 3.000
+ABJ  H192     C19    H191         109.47 3.000
+ABJ  H193     C19     C14         109.47 3.000
+ABJ  H192     C19     C14         109.47 3.000
+ABJ  H191     C19     C14         109.48 3.000
+ABJ   H14     C14     N11         109.47 3.000
+ABJ   H14     C14     C20         109.46 3.000
+ABJ   N11     C14     C20         109.48 3.000
+ABJ   H14     C14     C19         109.46 3.000
+ABJ   N11     C14     C19         109.50 3.000
+ABJ   C20     C14     C19         109.46 3.000
+ABJ  H203     C20    H202         109.47 3.000
+ABJ  H203     C20    H201         109.47 3.000
+ABJ  H202     C20    H201         109.48 3.000
+ABJ  H203     C20     C14         109.46 3.000
+ABJ  H202     C20     C14         109.49 3.000
+ABJ  H201     C20     C14         109.46 3.000
+ABJ   C7      N11     N15         108.03 3.000
+ABJ   C7      N11     C14         144.54 3.000
+ABJ   N15     N11     C14         106.87 3.000
+ABJ   C13     N15     N11         108.04 3.000
+ABJ   C4      C7      N3          119.93 3.000
+ABJ   C4      C7      N11         107.97 3.000
+ABJ   N3      C7      N11         132.05 3.000
+ABJ   C6      N3      C7          120.05 3.000
+ABJ   H6      C6      N5          119.97 3.000
+ABJ   H6      C6      N3          119.95 3.000
+ABJ   N5      C6      N3          120.08 3.000
+ABJ   C2      N5      C6          120.05 3.000
+ABJ   C4      C2      N1          151.97 3.000
+ABJ   C4      C2      N5          119.98 3.000
+ABJ   N1      C2      N5           87.98 3.000
+ABJ  H12N     N1     H11N         120.00 3.000
+ABJ  H12N     N1      C2          120.01 3.000
+ABJ  H11N     N1      C2          119.98 3.000
+ABJ   C13     C4      C2          132.10 3.000
+ABJ   C13     C4      C7          107.96 3.000
+ABJ   C2      C4      C7          119.91 3.000
+ABJ   C18     C13     C4          135.06 3.000
+ABJ   C18     C13     N15         116.92 3.000
+ABJ   C4      C13     N15         107.99 3.000
+ABJ   C27     C18     C28         119.99 3.000
+ABJ   C27     C18     C13         120.00 3.000
+ABJ   C28     C18     C13         119.98 3.000
+ABJ   H28     C28     C29         119.99 3.000
+ABJ   H28     C28     C18         120.00 3.000
+ABJ   C29     C28     C18         120.01 3.000
+ABJ   H27     C27     C30         119.99 3.000
+ABJ   H27     C27     C18         120.01 3.000
+ABJ   C30     C27     C18         120.00 3.000
+ABJ   H30     C30     C26         120.00 3.000
+ABJ   H30     C30     C27         120.00 3.000
+ABJ   C26     C30     C27         120.00 3.000
+ABJ   H26     C26     C29         120.00 3.000
+ABJ   H26     C26     C30         119.99 3.000
+ABJ   C29     C26     C30         120.00 3.000
+ABJ   O33     C29     C26         120.00 3.000
+ABJ   O33     C29     C28         119.99 3.000
+ABJ   C26     C29     C28         120.00 3.000
+ABJ   H33     O33     C29         109.47 3.000
+#
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ABJ CONST_01       C4      C13     N15     N11          -0.00   0.0 0
+ABJ CONST_02       C18     C13     N15     N11         178.34   0.0 0
+ABJ CONST_03       C6      N3      C7      N11         177.35   0.0 0
+ABJ CONST_04       C2      C4      C7      N11        -177.93   0.0 0
+ABJ CONST_05       C13     C4      C7      N11          -0.00   0.0 0
+ABJ CONST_06       N3      C7      N11     N15        -177.59   0.0 0
+ABJ CONST_07       C4      C7      N11     N15          -0.00   0.0 0
+ABJ CONST_08       C7      C4      C13     N15           0.00   0.0 0
+ABJ CONST_09       C2      C4      C13     N15         177.59   0.0 0
+ABJ CONST_10       C28     C18     C13     N15          87.53   0.0 0
+ABJ CONST_11       C27     C18     C13     N15         -90.31   0.0 0
+ABJ CONST_12       C13     N15     N11     C7            0.00   0.0 0
+ABJ CONST_13       N5      C6      N3      C7            0.00   0.0 0
+ABJ CONST_14       N5      C2      C4      C7            0.00   0.0 0
+ABJ CONST_15       C18     C13     C4      C7         -177.91   0.0 0
+ABJ CONST_16       C2      C4      C7      N3           -0.00   0.0 0
+ABJ CONST_17       C13     C4      C7      N3          177.93   0.0 0
+ABJ CONST_18       C2      N5      C6      N3            0.00   0.0 0
+ABJ CONST_19       C4      C7      N3      C6           -0.00   0.0 0
+ABJ CONST_20       C4      C2      N5      C6           -0.00   0.0 0
+ABJ CONST_21       C13     C4      C2      N5         -177.35   0.0 0
+ABJ CONST_22       C18     C13     C4      C2           -0.32   0.0 0
+ABJ CONST_23       C28     C18     C13     C4          -94.70   0.0 0
+ABJ CONST_24       C27     C18     C13     C4           87.46   0.0 0
+ABJ CONST_25       C29     C28     C18     C13        -177.84   0.0 0
+ABJ CONST_26       C30     C27     C18     C13         177.84   0.0 0
+ABJ CONST_27       C26     C29     C28     C18          -0.00   0.0 0
+ABJ CONST_28       C26     C30     C27     C18           0.00   0.0 0
+ABJ CONST_29       C30     C27     C18     C28          -0.00   0.0 0
+ABJ CONST_30       C30     C26     C29     C28           0.00   0.0 0
+ABJ CONST_31       C29     C28     C18     C27           0.00   0.0 0
+ABJ CONST_32       C29     C26     C30     C27          -0.00   0.0 0
+ABJ CONST_33       C13     N15     N11     C14         173.65   0.0 0
+ABJ CONST_34       N3      C7      N11     C14          12.92   0.0 0
+ABJ CONST_35       C4      C7      N11     C14        -169.50   0.0 0
+ABJ CONST_36       N1      C2      C4      C7         -175.49   0.0 0
+ABJ CONST_37       N1      C2      N5      C6          177.88   0.0 0
+ABJ CONST_38       C13     C4      C2      N1            7.16   0.0 0
+ABJ CONST_39       O33     C29     C28     C18        -179.48   0.0 0
+ABJ CONST_40       O33     C29     C26     C30         179.48   0.0 0
+ABJ CONST_41       H6      C6      N3      C7         -179.98   0.0 0
+ABJ CONST_42       H28     C28     C18     C13           2.14   0.0 0
+ABJ CONST_43       H27     C27     C18     C13          -2.14   0.0 0
+ABJ CONST_44       H30     C30     C27     C18         180.00   0.0 0
+ABJ CONST_45       H26     C26     C29     C28        -180.00   0.0 0
+ABJ CONST_46      H11N     N1      C2      N5           21.07   0.0 0
+ABJ CONST_47      H12N     N1      C2      N5         -157.93   0.0 0
+ABJ Var_01         N15     N11     C14     C19        -117.01  30.0 2
+ABJ Var_02        H201     C20     C14     N11         -77.29  30.0 3
+ABJ Var_03        H191     C19     C14     N11          58.80  30.0 3
+#
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ABJ plan-1    C13 0.020
+ABJ plan-1    C18 0.020
+ABJ plan-1    C28 0.020
+ABJ plan-1    C27 0.020
+ABJ plan-1    C30 0.020
+ABJ plan-1    C26 0.020
+ABJ plan-1    C29 0.020
+ABJ plan-1    O33 0.020
+ABJ plan-1    H28 0.020
+ABJ plan-1    H27 0.020
+ABJ plan-1    H30 0.020
+ABJ plan-1    H26 0.020
+ABJ plan-2    C14 0.020
+ABJ plan-2    N11 0.020
+ABJ plan-2    N15 0.020
+ABJ plan-2     C7 0.020
+ABJ plan-2     N3 0.020
+ABJ plan-2     C6 0.020
+ABJ plan-2     N5 0.020
+ABJ plan-2     C2 0.020
+ABJ plan-2     N1 0.020
+ABJ plan-2     C4 0.020
+ABJ plan-2    C13 0.020
+ABJ plan-2    C18 0.020
+ABJ plan-2     H6 0.020
+ABJ plan-3     C2 0.020
+ABJ plan-3     N1 0.020
+ABJ plan-3   H11N 0.020
+ABJ plan-3   H12N 0.020
