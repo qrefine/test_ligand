@@ -1,0 +1,103 @@
+# electronic Ligand Builder and Optimisation Workbench (eLBOW)
+#   - a module of PHENIX version 1.15.2-3472-
+#   - file written: Thu May 16 21:49:32 2019
+#
+#   Input file: /home/holly/phenix-1.15.2-3472/modules/chem_data/chemical_components/m/data_MLI.cif
+#   Random seed: 3628800
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+MLI        MLI 'Unknown                  ' ligand 9 7 .
+#
+data_comp_MLI
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+MLI         C1     C   CH2    0    .      -0.3524   -0.0000   -0.4983
+MLI         C2     C   C      0    .       1.1747   -0.0000   -0.4983
+MLI         C3     C   C      0    .      -0.8614   -0.0000    0.9415
+MLI         O6     O   O      0    .       1.8042    1.0799   -0.3478
+MLI         O7     O   OC    -1    .       1.8042   -1.0799   -0.6489
+MLI         O8     O   O      0    .      -1.2112    1.0802    1.4855
+MLI         O9     O   OC    -1    .      -0.9313   -1.0802    1.5844
+MLI         H11    H   HCH2   0    .      -0.7135   -0.8845   -1.0090
+MLI         H12    H   HCH2   0    .      -0.7135    0.8845   -1.0090
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+_chem_comp_bond.value_dist_neutron
+MLI   C1      C2    single        1.527 0.020     1.527
+MLI   C1      C3    single        1.527 0.020     1.527
+MLI   C1      H11   single        0.970 0.020     1.090
+MLI   C1      H12   single        0.970 0.020     1.090
+MLI   C2      O6    deloc         1.259 0.020     1.259
+MLI   C2      O7    deloc         1.259 0.020     1.259
+MLI   C3      O8    deloc         1.259 0.020     1.259
+MLI   C3      O9    deloc         1.259 0.020     1.259
+#
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+MLI   H12     C1      H11         109.47 3.000
+MLI   H12     C1      C3          109.47 3.000
+MLI   H11     C1      C3          109.47 3.000
+MLI   H12     C1      C2          109.47 3.000
+MLI   H11     C1      C2          109.47 3.000
+MLI   C3      C1      C2          109.47 3.000
+MLI   O7      C2      O6          120.00 3.000
+MLI   O7      C2      C1          120.00 3.000
+MLI   O6      C2      C1          120.00 3.000
+MLI   O9      C3      O8          120.00 3.000
+MLI   O9      C3      C1          120.00 3.000
+MLI   O8      C3      C1          120.00 3.000
+#
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+MLI Var_01         O8      C3      C1      C2           97.82  30.0 3
+MLI Var_02         O6      C2      C1      C3          -82.06  30.0 3
+#
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+MLI plan-1     C1 0.020
+MLI plan-1     C2 0.020
+MLI plan-1     O6 0.020
+MLI plan-1     O7 0.020
+MLI plan-2     C1 0.020
+MLI plan-2     C3 0.020
+MLI plan-2     O8 0.020
+MLI plan-2     O9 0.020
