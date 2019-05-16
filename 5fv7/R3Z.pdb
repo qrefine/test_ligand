@@ -1,0 +1,100 @@
+REMARK  99 electronic Ligand Builder and Optimisation Workbench (eLBOW)
+REMARK  99   - a module of PHENIX version 1.15.2-3472-
+REMARK  99   - file written: Thu May 16 20:54:57 2019
+REMARK  99
+REMARK  99   Input file: /home/holly/phenix-1.15.2-3472/modules/chem_data/chemical_components/r/data_R3Z.cif
+REMARK  99   Random seed: 3628800
+FORMUL   1  R3Z    C15 H12 N2 O5 S 
+HETATM    1  C1  R3Z A   1       0.064  -1.937  -5.111  1.00 20.00      A    C  
+HETATM    2  C2  R3Z A   1       0.704  -2.873  -4.254  1.00 20.00      A    C  
+HETATM    3  C3  R3Z A   1       0.971  -2.535  -2.919  1.00 20.00      A    C  
+HETATM    4  C4  R3Z A   1       0.606  -1.271  -2.426  1.00 20.00      A    C  
+HETATM    5  C5  R3Z A   1      -0.037  -0.331  -3.286  1.00 20.00      A    C  
+HETATM    6  C6  R3Z A   1      -0.303  -0.673  -4.622  1.00 20.00      A    C  
+HETATM    7  O7  R3Z A   1      -0.245   1.028  -2.801  1.00 20.00      A    O  
+HETATM    8  C8  R3Z A   1       0.338   1.395  -1.627  1.00 20.00      A    C  
+HETATM    9  C9  R3Z A   1       0.321   0.275  -0.583  1.00 20.00      A    C  
+HETATM   10  O10 R3Z A   1       0.861  -0.893  -1.052  1.00 20.00      A    O  
+HETATM   11  C11 R3Z A   1       1.144   0.740   0.675  1.00 20.00      A    C  
+HETATM   12  N12 R3Z A   1       0.234   1.013   1.778  1.00 20.00      A    N  
+HETATM   13  C13 R3Z A   1      -0.180  -0.083   2.682  1.00 20.00      A    C  
+HETATM   14  C14 R3Z A   1       0.154  -1.670   2.675  1.00 20.00      A    C  
+HETATM   15  C15 R3Z A   1      -0.522  -2.285   3.805  1.00 20.00      A    C  
+HETATM   16  S16 R3Z A   1      -1.295  -1.167   4.565  1.00 20.00      A    S  
+HETATM   17  C17 R3Z A   1      -1.037   0.193   3.806  1.00 20.00      A    C  
+HETATM   18  C18 R3Z A   1      -1.517   1.597   4.066  1.00 20.00      A    C  
+HETATM   19  O19 R3Z A   1      -2.166   1.832   5.038  1.00 20.00      A    O  
+HETATM   20  N20 R3Z A   1      -1.114   2.687   3.177  1.00 20.00      A    N  
+HETATM   21  C21 R3Z A   1      -0.231   2.406   2.028  1.00 20.00      A    C  
+HETATM   22  O22 R3Z A   1       0.116   3.303   1.296  1.00 20.00      A    O  
+HETATM   23  O23 R3Z A   1      -1.578   4.003   3.411  1.00 20.00      A    O  
+HETATM   24  H1  R3Z A   1      -0.143  -2.202  -6.149  1.00 20.00      A    H  
+HETATM   25  H2  R3Z A   1       0.992  -3.864  -4.640  1.00 20.00      A    H  
+HETATM   26  H3  R3Z A   1       1.459  -3.249  -2.267  1.00 20.00      A    H  
+HETATM   27  H6  R3Z A   1      -0.795   0.044  -5.281  1.00 20.00      A    H  
+HETATM   28  H8  R3Z A   1       1.376   1.674  -1.824  1.00 20.00      A    H  
+HETATM   29  H8A R3Z A   1      -0.194   2.259  -1.223  1.00 20.00      A    H  
+HETATM   30  H9  R3Z A   1      -0.723   0.086  -0.283  1.00 20.00      A    H  
+HETATM   31  H11 R3Z A   1       1.700   1.647   0.430  1.00 20.00      A    H  
+HETATM   32 H11A R3Z A   1       1.840  -0.047   0.965  1.00 20.00      A    H  
+HETATM   33  H14 R3Z A   1       0.773  -2.183   1.954  1.00 20.00      A    H  
+HETATM   34  H15 R3Z A   1      -0.590  -3.366   4.004  1.00 20.00      A    H  
+HETATM   35 HO23 R3Z A   1      -0.986   4.446   3.991  1.00 20.00      A    H  
+CONECT    1    2   24
+CONECT    1    6
+CONECT    1    6
+CONECT    2    1   25
+CONECT    2    3
+CONECT    2    3
+CONECT    3    4   26
+CONECT    3    2
+CONECT    3    2
+CONECT    4    3   10
+CONECT    4    5
+CONECT    4    5
+CONECT    5    6    7
+CONECT    5    4
+CONECT    5    4
+CONECT    6    5   27
+CONECT    6    1
+CONECT    6    1
+CONECT    7    5    8
+CONECT    8    7    9   28   29
+CONECT    9    8   10   11   30
+CONECT   10    4    9
+CONECT   11    9   12   31   32
+CONECT   12   11   13   21
+CONECT   13   12
+CONECT   13   14   17
+CONECT   14   33
+CONECT   14   13   15
+CONECT   15   34
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   18
+CONECT   17   13   16
+CONECT   18   17   20
+CONECT   18   19
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18   21   23
+CONECT   21   12   20
+CONECT   21   22
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   20   35
+CONECT   24    1
+CONECT   25    2
+CONECT   26    3
+CONECT   27    6
+CONECT   28    8
+CONECT   29    8
+CONECT   30    9
+CONECT   31   11
+CONECT   32   11
+CONECT   33   14
+CONECT   34   15
+CONECT   35   23
+END
