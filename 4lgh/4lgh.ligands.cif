@@ -1,0 +1,335 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+0JN 0JN "Unknown                  " ligand 46 25 . 
+#
+data_comp_0JN
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+0JN        N1      N   N      0 .          0.3718    0.7723   -4.3166
+0JN        C2      C   CR16   0 .          1.7263    0.7568   -4.2848
+0JN        N3      N   N      0 .          2.3762    0.6784   -3.1003
+0JN        C4      C   CR56   0 .          1.6793    0.6158   -1.9532
+0JN        C5      C   CR56   0 .          0.3393    0.6310   -1.9829
+0JN        C6      C   CR6    0 .         -0.3190    0.7107   -3.1883
+0JN        CAA     C   CH3    0 .          4.2850    1.5162   -0.8619
+0JN        CAB     C   CH3    0 .          3.3660    0.8853    1.3690
+0JN        CAE     C   CR16   0 .         -3.7254   -0.9619    4.4489
+0JN        CAF     C   CR16   0 .         -2.9793    0.1897    4.2203
+0JN        CAG     C   CR16   0 .         -3.0090   -2.3368   -0.1383
+0JN        CAH     C   CR16   0 .         -2.2627   -1.1850   -0.3671
+0JN        CAI     C   CR16   0 .         -3.9176   -1.8795    3.4252
+0JN        CAJ     C   CR16   0 .         -3.5569   -2.5719    1.1155
+0JN        CAR     C   CR6    0 .         -2.0656   -0.2702    0.6582
+0JN        CAS     C   CR5    0 .         -0.1199    0.5554   -0.6711
+0JN        CAT     C   CR66   0 .         -3.3577   -1.6452    2.1557
+0JN        NAX     N   NR5    0 .          2.0681    0.5328   -0.6577
+0JN        CAY     C   CT     0 .          3.4129    0.5115   -0.1101
+0JN        CAC     C   CH3    0 .          4.0026   -0.8888   -0.2629
+0JN        NAP     N   N      0 .          0.9333    0.4961    0.1278
+0JN        NAD     N   NH2    0 .         -1.5119    0.8872   -4.0015
+0JN        CAM     C   CH2    0 .         -1.3994    0.9679    0.0568
+0JN        CAU     C   CR66   0 .         -2.6205   -0.5074    1.9298
+0JN        CAK     C   CR16   0 .         -2.4264    0.4220    2.9681
+0JN        H1      H   HCR6   0 .          2.2899    0.8073   -5.2090
+0JN        H2      H   HCH3   0 .          3.7630    2.4663   -0.9338
+0JN        H3      H   HCH3   0 .          4.4921    1.1405   -1.8599
+0JN        H4      H   HCH3   0 .          5.2196    1.6562   -0.3265
+0JN        H5      H   HCH3   0 .          2.8927    1.8562    1.4821
+0JN        H6      H   HCH3   0 .          4.3770    0.9271    1.7642
+0JN        H7      H   HCH3   0 .          2.7951    0.1386    1.9132
+0JN        H8      H   HCR6   0 .         -4.1565   -1.1426    5.4261
+0JN        H9      H   HCR6   0 .         -2.8296    0.9055    5.0196
+0JN        H10     H   HCR6   0 .         -3.1626   -3.0506   -0.9391
+0JN        H11     H   HCR6   0 .         -1.8355   -1.0021   -1.3456
+0JN        H12     H   HCR6   0 .         -4.4987   -2.7762    3.6037
+0JN        H13     H   HCR6   0 .         -4.1381   -3.4691    1.2932
+0JN        H14     H   HCH3   0 .          3.3212   -1.6175    0.1667
+0JN        H15     H   HCH3   0 .          4.1488   -1.1070   -1.3165
+0JN        H16     H   HCH3   0 .          4.9573   -0.9378    0.2528
+0JN        H17     H   HNH2   0 .         -2.4188    0.7649   -3.5936
+0JN        H18     H   HNH2   0 .         -1.4266    1.1320   -4.9710
+0JN        H19     H   HCH2   0 .         -1.1552    1.6681    0.8492
+0JN        H20     H   HCH2   0 .         -2.0791    1.4391   -0.6454
+0JN        H21     H   HCR6   0 .         -1.8455    1.3188    2.7906
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+_chem_comp_bond.value_dist_neutron
+0JN  CAE     CAI    aromatic      1.388 0.020     1.388
+0JN  CAE     CAF    aromatic      1.391 0.020     1.391
+0JN  CAI     CAT    aromatic      1.407 0.020     1.407
+0JN  CAF     CAK    aromatic      1.388 0.020     1.388
+0JN  CAT     CAJ    aromatic      1.407 0.020     1.407
+0JN  CAT     CAU    aromatic      1.374 0.020     1.374
+0JN  CAK     CAU    aromatic      1.407 0.020     1.407
+0JN  CAJ     CAG    aromatic      1.388 0.020     1.388
+0JN  CAU     CAR    aromatic      1.408 0.020     1.408
+0JN  CAA     CAY    single        1.528 0.020     1.528
+0JN  CAB     CAY    single        1.526 0.020     1.526
+0JN  CAG     CAH    aromatic      1.391 0.020     1.391
+0JN  CAY     NAX    single        1.452 0.020     1.452
+0JN  CAY     CAC    single        1.527 0.020     1.527
+0JN  CAR     CAH    aromatic      1.388 0.020     1.388
+0JN  CAR     CAM    single        1.529 0.020     1.529
+0JN  NAP     NAX    aromatic      1.381 0.020     1.381
+0JN  NAP     CAS    aromatic      1.323 0.020     1.323
+0JN  NAX     C4     aromatic      1.355 0.020     1.355
+0JN  CAS     CAM    single        1.529 0.020     1.529
+0JN  CAS     C5     aromatic      1.392 0.020     1.392
+0JN  C4      N3     aromatic      1.344 0.020     1.344
+0JN  C4      C5     aromatic      1.340 0.020     1.340
+0JN  N3      C2     aromatic      1.353 0.020     1.353
+0JN  C5      C6     aromatic      1.376 0.020     1.376
+0JN  C2      N1     aromatic      1.355 0.020     1.355
+0JN  C6      N1     aromatic      1.324 0.020     1.324
+0JN  C6      NAD    single        1.454 0.020     1.454
+0JN  C2      H1     single        0.930 0.020     1.080
+0JN  CAA     H2     single        0.970 0.020     1.090
+0JN  CAA     H3     single        0.970 0.020     1.090
+0JN  CAA     H4     single        0.970 0.020     1.090
+0JN  CAB     H5     single        0.970 0.020     1.090
+0JN  CAB     H6     single        0.970 0.020     1.090
+0JN  CAB     H7     single        0.970 0.020     1.090
+0JN  CAE     H8     single        0.930 0.020     1.080
+0JN  CAF     H9     single        0.930 0.020     1.080
+0JN  CAG     H10    single        0.930 0.020     1.080
+0JN  CAH     H11    single        0.930 0.020     1.080
+0JN  CAI     H12    single        0.930 0.020     1.080
+0JN  CAJ     H13    single        0.930 0.020     1.080
+0JN  CAC     H14    single        0.970 0.020     1.090
+0JN  CAC     H15    single        0.970 0.020     1.090
+0JN  CAC     H16    single        0.970 0.020     1.090
+0JN  NAD     H17    single        0.860 0.020     1.020
+0JN  NAD     H18    single        0.860 0.020     1.020
+0JN  CAM     H19    single        0.970 0.020     1.090
+0JN  CAM     H20    single        0.970 0.020     1.090
+0JN  CAK     H21    single        0.930 0.020     1.080
+#
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+0JN  C6      N1      C2           120.06 3.000
+0JN  H1      C2      N3           119.96 3.000
+0JN  H1      C2      N1           119.96 3.000
+0JN  N3      C2      N1           120.08 3.000
+0JN  C4      N3      C2           120.05 3.000
+0JN  NAX     C4      C5           107.98 3.000
+0JN  C5      C4      N3           119.94 3.000
+0JN  NAX     C4      N3           132.08 3.000
+0JN  CAS     C5      C6           132.15 3.000
+0JN  C6      C5      C4           119.90 3.000
+0JN  CAS     C5      C4           107.95 3.000
+0JN  NAD     C6      C5           152.79 3.000
+0JN  NAD     C6      N1            86.90 3.000
+0JN  C5      C6      N1           119.97 3.000
+0JN  H4      CAA     H3           109.47 3.000
+0JN  H4      CAA     H2           109.47 3.000
+0JN  H3      CAA     H2           109.47 3.000
+0JN  H4      CAA     CAY          109.47 3.000
+0JN  H3      CAA     CAY          109.47 3.000
+0JN  H2      CAA     CAY          109.47 3.000
+0JN  H7      CAB     H6           109.47 3.000
+0JN  H7      CAB     H5           109.47 3.000
+0JN  H6      CAB     H5           109.47 3.000
+0JN  H7      CAB     CAY          109.47 3.000
+0JN  H6      CAB     CAY          109.47 3.000
+0JN  H5      CAB     CAY          109.47 3.000
+0JN  H8      CAE     CAI          119.99 3.000
+0JN  H8      CAE     CAF          119.99 3.000
+0JN  CAI     CAE     CAF          120.02 3.000
+0JN  H9      CAF     CAK          119.99 3.000
+0JN  H9      CAF     CAE          119.99 3.000
+0JN  CAK     CAF     CAE          120.02 3.000
+0JN  H10     CAG     CAJ          119.99 3.000
+0JN  H10     CAG     CAH          119.99 3.000
+0JN  CAJ     CAG     CAH          120.02 3.000
+0JN  H11     CAH     CAR          119.99 3.000
+0JN  H11     CAH     CAG          119.99 3.000
+0JN  CAR     CAH     CAG          120.02 3.000
+0JN  H12     CAI     CAT          119.99 3.000
+0JN  H12     CAI     CAE          120.00 3.000
+0JN  CAT     CAI     CAE          120.01 3.000
+0JN  H13     CAJ     CAT          119.99 3.000
+0JN  H13     CAJ     CAG          119.99 3.000
+0JN  CAT     CAJ     CAG          120.01 3.000
+0JN  CAU     CAR     CAM          131.57 3.000
+0JN  CAM     CAR     CAH          107.76 3.000
+0JN  CAU     CAR     CAH          120.01 3.000
+0JN  CAM     CAS     NAP          113.01 3.000
+0JN  CAM     CAS     C5           135.25 3.000
+0JN  NAP     CAS     C5           107.99 3.000
+0JN  CAU     CAT     CAJ          119.97 3.000
+0JN  CAU     CAT     CAI          119.97 3.000
+0JN  CAJ     CAT     CAI          120.06 3.000
+0JN  NAP     NAX     CAY          123.11 3.000
+0JN  NAP     NAX     C4           108.04 3.000
+0JN  CAY     NAX     C4           128.83 3.000
+0JN  CAC     CAY     NAX          109.47 3.000
+0JN  CAC     CAY     CAB          109.47 3.000
+0JN  NAX     CAY     CAB          109.47 3.000
+0JN  CAC     CAY     CAA          109.47 3.000
+0JN  NAX     CAY     CAA          109.47 3.000
+0JN  CAB     CAY     CAA          109.47 3.000
+0JN  H16     CAC     H15          109.47 3.000
+0JN  H16     CAC     H14          109.47 3.000
+0JN  H15     CAC     H14          109.47 3.000
+0JN  H16     CAC     CAY          109.47 3.000
+0JN  H15     CAC     CAY          109.47 3.000
+0JN  H14     CAC     CAY          109.47 3.000
+0JN  NAX     NAP     CAS          108.03 3.000
+0JN  H18     NAD     H17          120.00 3.000
+0JN  H18     NAD     C6           120.00 3.000
+0JN  H17     NAD     C6           120.00 3.000
+0JN  H20     CAM     H19          109.47 3.000
+0JN  H20     CAM     CAS          109.47 3.000
+0JN  H19     CAM     CAS          109.47 3.000
+0JN  H20     CAM     CAR          109.47 3.000
+0JN  H19     CAM     CAR          109.47 3.000
+0JN  CAS     CAM     CAR          109.47 3.000
+0JN  CAK     CAU     CAT          119.97 3.000
+0JN  CAK     CAU     CAR          120.07 3.000
+0JN  CAT     CAU     CAR          119.97 3.000
+0JN  H21     CAK     CAU          119.99 3.000
+0JN  H21     CAK     CAF          119.99 3.000
+0JN  CAU     CAK     CAF          120.01 3.000
+#
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+0JN CONST_01      C4      N3      C2      N1            -0.00   0.0 0
+0JN CONST_02      CAS     C5      C6      N1          -179.97   0.0 0
+0JN CONST_03      C4      C5      C6      N1            -0.00   0.0 0
+0JN CONST_04      NAX     C4      N3      C2           179.97   0.0 0
+0JN CONST_05      C5      C4      N3      C2            -0.00   0.0 0
+0JN CONST_06      C5      C6      N1      C2            -0.00   0.0 0
+0JN CONST_07      NAP     NAX     C4      N3          -179.97   0.0 0
+0JN CONST_08      CAS     C5      C4      N3           179.98   0.0 0
+0JN CONST_09      C6      C5      C4      N3             0.00   0.0 0
+0JN CONST_10      C6      N1      C2      N3             0.00   0.0 0
+0JN CONST_11      CAS     NAP     NAX     C4             0.00   0.0 0
+0JN CONST_12      NAP     CAS     C5      C4            -0.00   0.0 0
+0JN CONST_13      NAX     NAP     CAS     C5             0.00   0.0 0
+0JN CONST_14      NAP     NAX     C4      C5            -0.00   0.0 0
+0JN CONST_15      NAP     CAS     C5      C6           179.97   0.0 0
+0JN CONST_16      NAX     C4      C5      C6          -179.98   0.0 0
+0JN CONST_17      CAJ     CAT     CAI     CAE         -179.72   0.0 0
+0JN CONST_18      CAU     CAT     CAI     CAE           -0.00   0.0 0
+0JN CONST_19      CAU     CAK     CAF     CAE           -0.00   0.0 0
+0JN CONST_20      CAT     CAI     CAE     CAF            0.00   0.0 0
+0JN CONST_21      CAT     CAU     CAK     CAF            0.00   0.0 0
+0JN CONST_22      CAR     CAU     CAK     CAF          179.72   0.0 0
+0JN CONST_23      CAI     CAT     CAJ     CAG          179.72   0.0 0
+0JN CONST_24      CAU     CAT     CAJ     CAG           -0.00   0.0 0
+0JN CONST_25      CAU     CAR     CAH     CAG           -0.00   0.0 0
+0JN CONST_26      CAT     CAJ     CAG     CAH            0.00   0.0 0
+0JN CONST_27      CAT     CAU     CAR     CAH            0.00   0.0 0
+0JN CONST_28      CAK     CAU     CAR     CAH         -179.72   0.0 0
+0JN CONST_29      CAK     CAF     CAE     CAI            0.00   0.0 0
+0JN CONST_30      CAK     CAU     CAT     CAI            0.00   0.0 0
+0JN CONST_31      CAR     CAU     CAT     CAI         -179.72   0.0 0
+0JN CONST_32      CAK     CAU     CAT     CAJ          179.72   0.0 0
+0JN CONST_33      CAR     CAU     CAT     CAJ           -0.00   0.0 0
+0JN CONST_34      CAR     CAH     CAG     CAJ            0.00   0.0 0
+0JN CONST_35      NAX     C4      C5      CAS            0.00   0.0 0
+0JN CONST_36      NAD     C6      N1      C2           175.46   0.0 0
+0JN CONST_37      CAY     NAX     C4      N3             1.32   0.0 0
+0JN CONST_38      CAM     CAS     C5      C4           155.68   0.0 0
+0JN CONST_39      NAD     C6      C5      C4          -170.04   0.0 0
+0JN CONST_40      CAY     NAX     C4      C5          -178.71   0.0 0
+0JN CONST_41      CAM     CAS     C5      C6           -24.35   0.0 0
+0JN CONST_42      CAM     CAR     CAH     CAG         -171.71   0.0 0
+0JN CONST_43      CAY     NAX     NAP     CAS          178.80   0.0 0
+0JN CONST_44      NAD     C6      C5      CAS            9.99   0.0 0
+0JN CONST_45      CAM     CAR     CAU     CAT          169.42   0.0 0
+0JN CONST_46      CAM     CAS     NAP     NAX         -161.64   0.0 0
+0JN CONST_47      CAK     CAU     CAR     CAM          -10.29   0.0 0
+0JN CONST_48      H1      C2      N3      C4          -180.00   0.0 0
+0JN CONST_49      H21     CAK     CAF     CAE          180.00   0.0 0
+0JN CONST_50      H12     CAI     CAE     CAF          180.00   0.0 0
+0JN CONST_51      H13     CAJ     CAG     CAH          180.00   0.0 0
+0JN CONST_52      H9      CAF     CAE     CAI          180.00   0.0 0
+0JN CONST_53      H11     CAH     CAG     CAJ          180.00   0.0 0
+0JN CONST_54      H10     CAG     CAH     CAR          180.00   0.0 0
+0JN CONST_55      H8      CAE     CAI     CAT         -180.00   0.0 0
+0JN CONST_56      H17     NAD     C6      N1           170.04   0.0 0
+0JN CONST_57      H18     NAD     C6      N1           -10.00   0.0 0
+0JN Var_01        CAR     CAM     CAS     C5           118.97  30.0 2
+0JN Var_02        CAS     CAM     CAR     CAH          -55.21  30.0 2
+0JN Var_03        CAA     CAY     NAX     C4            40.81  30.0 3
+0JN Var_04        H2      CAA     CAY     NAX           48.08  30.0 3
+0JN Var_05        H5      CAB     CAY     NAX          -56.66  30.0 3
+0JN Var_06        H14     CAC     CAY     NAX          -53.14  30.0 3
+#
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+0JN plan-1  N1     0.020
+0JN plan-1  C2     0.020
+0JN plan-1  N3     0.020
+0JN plan-1  C4     0.020
+0JN plan-1  C5     0.020
+0JN plan-1  C6     0.020
+0JN plan-1  CAS    0.020
+0JN plan-1  NAX    0.020
+0JN plan-1  CAY    0.020
+0JN plan-1  NAP    0.020
+0JN plan-1  NAD    0.020
+0JN plan-1  CAM    0.020
+0JN plan-1  H1     0.020
+0JN plan-2  CAE    0.020
+0JN plan-2  CAF    0.020
+0JN plan-2  CAG    0.020
+0JN plan-2  CAH    0.020
+0JN plan-2  CAI    0.020
+0JN plan-2  CAJ    0.020
+0JN plan-2  CAR    0.020
+0JN plan-2  CAT    0.020
+0JN plan-2  CAM    0.020
+0JN plan-2  CAU    0.020
+0JN plan-2  CAK    0.020
+0JN plan-2  H9     0.020
+0JN plan-2  H10    0.020
+0JN plan-2  H11    0.020
+0JN plan-2  H12    0.020
+0JN plan-2  H13    0.020
+0JN plan-2  H21    0.020
+0JN plan-2  H8     0.020
+0JN plan-3  C6     0.020
+0JN plan-3  NAD    0.020
+0JN plan-3  H17    0.020
+0JN plan-3  H18    0.020
