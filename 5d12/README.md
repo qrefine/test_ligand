@@ -14,4 +14,4 @@ commands:
 
 4. phenix.pdbtools 5d12_refine_001_complete.pdb modify.selection="element H" occupancies.set=0     ----5d12_refine_001_complete.pdb_modified.pdb
 
-5. phenix.pdbtools 5d12_refine_001_complete.pdb_modified.pdb keep="resname AQU" ----5d12_refine_001_complete.pdb_modified.pdb_modified.pdb(43 atoms)
+5. phenix.pdbtools 5d12_refine_001_complete.pdb_modified.pdb keep="resname G97" ----5d12_refine_001_complete.pdb_modified.pdb_modified.pdb(43 atoms)
