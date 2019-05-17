@@ -1,3 +1,5 @@
+commands:
+
 1. phenix.fetch_pdb 5fv7 --mtz    ----5fv7.pdb 5fv7.mtz
 
 2. phenix.ready_set 5fv7.pdb ----R3Z.cif
@@ -6,4 +8,6 @@
 
 4. qr.finalise 5fv7_refine_001.pdb ----5fv7_refine_001_complete.pdb
 
-5. phenix.pdbtools 5fv7_refine_001_complete.pdb modify.selection="element H" occupancies.set=0 ----5fv7_refine_001_complete.pdb_modified.pdb
+5. phenix.pdbtools 5fv7_refine_001_complete.pdb modify.selection="element H" occupancies.set=0 --  5fv7_refine_001_complete.pdb_modified.pdb
+
+6. phenix.pdbtools 5fv7_refine_001_complete.pdb_modified.pdb keep="resname R3Z" ----5fv7_refine_001_complete.pdb_modified.pdb_modified.pdb
