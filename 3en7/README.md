@@ -1,14 +1,12 @@
-ABJ_download_from_www.rcsb.org(37 atoms)
+Q: The ligand ABJ lost 2 hydrogens afier doing refinement.
 
-3en7_refine_001_complete.pdb_modified.pdb_modified.pdb(35 atoms)
-
-The ligand ABJ lost 2 hydrogens afier doing refinement.
+ABJ_download_from_www.rcsb.org(37 atoms), 3en7_refine_001_complete.pdb_modified.pdb_modified.pdb(35 atoms)
 
 commands:
 
 1. phenix.fetch_pdb 3en7 --mtz    ----3en7.pdb 3en7.mtz
 
-2. phenix.ready_set 3en7.pdb    ----ABJ.cif ABJ.pdb(35 atoms)
+2. phenix.ready_set 3en7.pdb    ----ABJ.cif ABJ.pdb
 
 3. phenix.refine 3en7.pdb 3en7.mtz ABJ.cif    ----3en7_refine_001.pdb 3en7_refine_001.mtz
 
@@ -16,4 +14,4 @@ commands:
 
 5. phenix.pdbtools 3en7_refine_001_complete.pdb modify.selection="element H" occupancies.set=0    ----3en7_refine_001_complete.pdb_modified.pdb
 
-6. phenix.pdbtools 3en7_refine_001_complete.pdb_modified.pdb keep="resname ABJ"    ----3en7_refine_001_complete.pdb_modified.pdb_modified.pdb(37 atoms)
+6. phenix.pdbtools 3en7_refine_001_complete.pdb_modified.pdb keep="resname ABJ"    ----3en7_refine_001_complete.pdb_modified.pdb_modified.pdb(35 atoms)
