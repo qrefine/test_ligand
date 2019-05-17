@@ -1,0 +1,324 @@
+# electronic Ligand Builder and Optimisation Workbench (eLBOW)
+#   - a module of PHENIX version 1.15.2-3472-
+#   - file written: Thu May 16 19:47:20 2019
+#
+#   Input file: /home/holly/phenix-1.15.2-3472/modules/chem_data/chemical_components/7/data_77V.cif
+#   Random seed: 3628800
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+77V        77V 'Unknown                  ' ligand 40 24 .
+#
+data_comp_77V
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+77V         C6     C   CR16   0    .      -2.6264    1.3398   -2.3499
+77V         C1     C   CR16   0    .      -1.5153    1.2816   -1.5171
+77V         C18    C   CR15   0    .       0.7590   -2.6015    3.3171
+77V         C3     C   CR16   0    .      -2.9600    1.2111    0.4046
+77V         C17    C   CR15   0    .       1.9978   -3.1729    3.4661
+77V         C5     C   CR56   0    .      -3.9252    1.3335   -1.7960
+77V         C11    C   CR56   0    .       0.8761   -1.5555    2.4125
+77V         C4     C   CR56   0    .      -4.0895    1.2702   -0.4417
+77V         C2     C   CR6    0    .      -1.6821    1.2173   -0.1407
+77V         C10    C   CR56   0    .       2.1674   -1.4901    2.0157
+77V         C9     C   CR5    0    .      -5.1856    1.3742   -2.3783
+77V         C15    C   CR6    0    .       2.5590   -0.5309    1.1081
+77V         C13    C   CR6    0    .       0.3668    0.2614    1.0248
+77V         C22    C   CH2    0    .       6.1048   -1.4377   -0.0843
+77V         C23    C   CH2    0    .       6.0209    0.0709   -0.3319
+77V         C21    C   CH1    0    .       4.7390   -0.7524   -0.1796
+77V         C24    C   CH3    0    .      -5.8602    1.3387   -3.7601
+77V         N12    N   N      0    .      -0.0223   -0.6838    1.9199
+77V         N8     N   N      0    .      -6.0944    1.3365   -1.3990
+77V         N14    N   N      0    .       1.6675    0.3286    0.6240
+77V         N7     N   NR15   0    .      -5.4165    1.2713   -0.1822
+77V         N19    N   NH1    0    .      -0.5423    1.3860    0.7700
+77V         N20    N   NH1    0    .       4.0246   -0.5833    1.0918
+77V         O16    O   O      0    .       2.8708   -2.4976    2.6707
+77V         H1     H   HCR6   0    .      -2.4954    1.3902   -3.4288
+77V         H2     H   HCR6   0    .      -0.5143    1.2865   -1.9443
+77V         H3     H   HCR5   0    .      -0.1539   -2.9134    3.8196
+77V         H4     H   HCR6   0    .      -3.0907    1.1608    1.4830
+77V         H5     H   HCR5   0    .       2.2424   -4.0085    4.1192
+77V         H6     H   HCH2   0    .       6.3893   -2.0397   -0.9452
+77V         H7     H   HCH2   0    .       6.4131   -1.7325    0.9157
+77V         H8     H   HCH2   0    .       6.2780    0.7004    0.5165
+77V         H9     H   HCH2   0    .       6.2539    0.3942   -1.3443
+77V         H10    H   HCH1   0    .       4.1855   -0.9343   -1.0992
+77V         H11    H   HCH3   0    .      -5.8495    0.3199   -4.1430
+77V         H12    H   HCH3   0    .      -6.8891    1.6818   -3.6705
+77V         H13    H   HCH3   0    .      -5.3193    1.9891   -4.4447
+77V         H15    H   HNH1   0    .      -0.3837    2.2730    1.2190
+77V         H16    H   HNH1   0    .       4.5402   -0.5150    1.9534
+77V         H14    H   HNR5   0    .      -5.8405    1.2319    0.7291
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+_chem_comp_bond.value_dist_neutron
+77V   C22     C23   single        1.531 0.020     1.531
+77V   C22     C21   single        1.531 0.020     1.531
+77V   C23     C21   single        1.531 0.020     1.531
+77V   O16     C17   aromatic      1.360 0.020     1.360
+77V   O16     C10   aromatic      1.392 0.020     1.392
+77V   C17     C18   aromatic      1.372 0.020     1.372
+77V   C21     N20   single        1.468 0.020     1.468
+77V   N20     C15   single        1.467 0.020     1.467
+77V   C10     C15   aromatic      1.377 0.020     1.377
+77V   C10     C11   aromatic      1.353 0.020     1.353
+77V   C15     N14   aromatic      1.330 0.020     1.330
+77V   C18     C11   aromatic      1.388 0.020     1.388
+77V   C11     N12   aromatic      1.345 0.020     1.345
+77V   N14     C13   aromatic      1.363 0.020     1.363
+77V   N7      N8    aromatic      1.394 0.020     1.394
+77V   N7      C4    aromatic      1.352 0.020     1.352
+77V   N12     C13   aromatic      1.359 0.020     1.359
+77V   C13     N19   single        1.468 0.020     1.468
+77V   N8      C9    aromatic      1.337 0.020     1.337
+77V   C3      C4    aromatic      1.413 0.020     1.413
+77V   C3      C2    aromatic      1.389 0.020     1.389
+77V   C4      C5    aromatic      1.366 0.020     1.366
+77V   N19     C2    single        1.469 0.020     1.469
+77V   C2      C1    aromatic      1.388 0.020     1.388
+77V   C9      C5    aromatic      1.389 0.020     1.389
+77V   C9      C24   single        1.538 0.020     1.538
+77V   C5      C6    aromatic      1.412 0.020     1.412
+77V   C1      C6    aromatic      1.390 0.020     1.390
+77V   C6      H1    single        0.930 0.020     1.080
+77V   C1      H2    single        0.930 0.020     1.080
+77V   C18     H3    single        0.930 0.020     1.080
+77V   C3      H4    single        0.930 0.020     1.080
+77V   C17     H5    single        0.930 0.020     1.080
+77V   C22     H6    single        0.970 0.020     1.090
+77V   C22     H7    single        0.970 0.020     1.090
+77V   C23     H8    single        0.970 0.020     1.090
+77V   C23     H9    single        0.970 0.020     1.090
+77V   C21     H10   single        0.970 0.020     1.090
+77V   C24     H11   single        0.970 0.020     1.090
+77V   C24     H12   single        0.970 0.020     1.090
+77V   C24     H13   single        0.970 0.020     1.090
+77V   N19     H15   single        0.860 0.020     1.020
+77V   N20     H16   single        0.860 0.020     1.020
+77V   N7      H14   single        0.860 0.020     1.020
+#
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+77V   H1      C6      C5          120.00 3.000
+77V   H1      C6      C1          119.99 3.000
+77V   C5      C6      C1          120.01 3.000
+77V   H2      C1      C2          120.00 3.000
+77V   H2      C1      C6          120.00 3.000
+77V   C2      C1      C6          120.00 3.000
+77V   H3      C18     C11         126.02 3.000
+77V   H3      C18     C17         126.01 3.000
+77V   C11     C18     C17         107.97 3.000
+77V   H4      C3      C2          120.00 3.000
+77V   H4      C3      C4          120.00 3.000
+77V   C2      C3      C4          120.01 3.000
+77V   H5      C17     O16         125.99 3.000
+77V   H5      C17     C18         125.99 3.000
+77V   O16     C17     C18         108.00 3.000
+77V   C9      C5      C4          107.93 3.000
+77V   C9      C5      C6          132.07 3.000
+77V   C4      C5      C6          119.99 3.000
+77V   N12     C11     C10         119.93 3.000
+77V   N12     C11     C18         132.12 3.000
+77V   C10     C11     C18         107.95 3.000
+77V   N7      C4      C5          107.96 3.000
+77V   C5      C4      C3          119.99 3.000
+77V   N7      C4      C3          132.05 3.000
+77V   N19     C2      C3          118.10 3.000
+77V   N19     C2      C1          121.08 3.000
+77V   C3      C2      C1          120.00 3.000
+77V   O16     C10     C15         132.09 3.000
+77V   C15     C10     C11         119.89 3.000
+77V   O16     C10     C11         108.02 3.000
+77V   N8      C9      C24         111.06 3.000
+77V   C24     C9      C5          140.71 3.000
+77V   N8      C9      C5          108.00 3.000
+77V   N20     C15     N14         133.56 3.000
+77V   N14     C15     C10         119.97 3.000
+77V   N20     C15     C10         105.46 3.000
+77V   N19     C13     N14         120.14 3.000
+77V   N19     C13     N12         118.02 3.000
+77V   N14     C13     N12         120.10 3.000
+77V   H7      C22     H6          120.23 3.000
+77V   H7      C22     C21         115.57 3.000
+77V   H6      C22     C21         115.57 3.000
+77V   H7      C22     C23         115.56 3.000
+77V   H6      C22     C23         115.56 3.000
+77V   C21     C22     C23          60.00 3.000
+77V   H9      C23     H8          120.23 3.000
+77V   H9      C23     C21         115.57 3.000
+77V   H8      C23     C21         115.58 3.000
+77V   H9      C23     C22         115.56 3.000
+77V   H8      C23     C22         115.55 3.000
+77V   C21     C23     C22          60.00 3.000
+77V   H10     C21     N20         120.23 3.000
+77V   H10     C21     C23         115.56 3.000
+77V   N20     C21     C23         115.57 3.000
+77V   H10     C21     C22         115.55 3.000
+77V   N20     C21     C22         115.57 3.000
+77V   C23     C21     C22          60.00 3.000
+77V   H13     C24     H12         109.47 3.000
+77V   H13     C24     H11         109.47 3.000
+77V   H12     C24     H11         109.47 3.000
+77V   H13     C24     C9          109.47 3.000
+77V   H12     C24     C9          109.47 3.000
+77V   H11     C24     C9          109.47 3.000
+77V   C13     N12     C11         120.05 3.000
+77V   N7      N8      C9          108.07 3.000
+77V   C13     N14     C15         120.06 3.000
+77V   H14     N7      N8          125.98 3.000
+77V   H14     N7      C4          125.98 3.000
+77V   N8      N7      C4          108.04 3.000
+77V   H15     N19     C13         119.99 3.000
+77V   H15     N19     C2          120.00 3.000
+77V   C13     N19     C2          120.01 3.000
+77V   C10     O16     C17         108.06 3.000
+77V   H16     N20     C21         120.00 3.000
+77V   H16     N20     C15         119.99 3.000
+77V   C21     N20     C15         120.00 3.000
+#
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+77V CONST_01       N7      C4      C5      C6         -179.67   0.0 0
+77V CONST_02       C3      C4      C5      C6           -0.00   0.0 0
+77V CONST_03       N8      C9      C5      C6          179.62   0.0 0
+77V CONST_04       C3      C2      C1      C6           -0.00   0.0 0
+77V CONST_05       C4      C3      C2      C1            0.00   0.0 0
+77V CONST_06       C4      C5      C6      C1            0.00   0.0 0
+77V CONST_07       C9      C5      C6      C1         -179.58   0.0 0
+77V CONST_08       C10     O16     C17     C18           0.00   0.0 0
+77V CONST_09       O16     C10     C11     C18           0.00   0.0 0
+77V CONST_10       C15     C10     C11     C18         179.91   0.0 0
+77V CONST_11       C13     N12     C11     C18        -179.88   0.0 0
+77V CONST_12       N8      N7      C4      C3         -179.62   0.0 0
+77V CONST_13       C9      C5      C4      C3          179.67   0.0 0
+77V CONST_14       C15     C10     O16     C17        -179.89   0.0 0
+77V CONST_15       C11     C10     O16     C17          -0.00   0.0 0
+77V CONST_16       C10     C11     C18     C17          -0.00   0.0 0
+77V CONST_17       N12     C11     C18     C17         179.89   0.0 0
+77V CONST_18       N8      N7      C4      C5           -0.00   0.0 0
+77V CONST_19       C2      C3      C4      C5            0.00   0.0 0
+77V CONST_20       N7      N8      C9      C5            0.00   0.0 0
+77V CONST_21       C2      C1      C6      C5           -0.00   0.0 0
+77V CONST_22       N14     C15     C10     C11          -0.00   0.0 0
+77V CONST_23       O16     C17     C18     C11           0.00   0.0 0
+77V CONST_24       N14     C13     N12     C11          -0.00   0.0 0
+77V CONST_25       C9      N8      N7      C4            0.00   0.0 0
+77V CONST_26       N8      C9      C5      C4           -0.00   0.0 0
+77V CONST_27       N7      C4      C3      C2          179.58   0.0 0
+77V CONST_28       C13     N14     C15     C10          -0.00   0.0 0
+77V CONST_29       C13     N12     C11     C10          -0.00   0.0 0
+77V CONST_30       N7      C4      C5      C9            0.00   0.0 0
+77V CONST_31       N12     C11     C10     C15           0.00   0.0 0
+77V CONST_32       N12     C13     N14     C15           0.00   0.0 0
+77V CONST_33       O16     C10     C11     N12        -179.91   0.0 0
+77V CONST_34       O16     C10     C15     N14         179.88   0.0 0
+77V CONST_35       C24     C9      C5      C6            6.01   0.0 0
+77V CONST_36       N19     C2      C1      C6         -169.43   0.0 0
+77V CONST_37       N20     C15     C10     C11         169.97   0.0 0
+77V CONST_38       N19     C13     N12     C11        -164.99   0.0 0
+77V CONST_39       N19     C2      C3      C4          169.74   0.0 0
+77V CONST_40       C24     C9      C5      C4         -173.61   0.0 0
+77V CONST_41       N19     C13     N14     C15         164.67   0.0 0
+77V CONST_42       N20     C15     N14     C13        -166.60   0.0 0
+77V CONST_43       N7      N8      C9      C24         175.67   0.0 0
+77V CONST_44       O16     C10     C15     N20         -10.15   0.0 0
+77V CONST_45       C21     N20     C15     C10         126.41   0.0 0
+77V CONST_46       N14     C15     N20     C21         -65.61   0.0 0
+77V CONST_47       H4      C3      C2      C1         -180.00   0.0 0
+77V CONST_48       H14     N7      C4      C3            0.38   0.0 0
+77V CONST_49       H2      C1      C2      C3         -180.00   0.0 0
+77V CONST_50       H5      C17     C18     C11         179.02   0.0 0
+77V CONST_51       H1      C6      C5      C4          180.00   0.0 0
+77V CONST_52       H3      C18     C11     C10         180.00   0.0 0
+77V CONST_53       H16     N20     C15     C10         -52.82   0.0 0
+77V Var_01         C13     N19     C2      C1          -80.29  30.0 2
+77V Var_02         N14     C13     N19     C2          114.70  30.0 2
+77V Var_03         C22     C21     N20     C15        -152.18  30.0 2
+77V Var_04         N20     C21     C23     C22         106.04  30.0 1
+77V Var_05         H11     C24     C9      C5           75.76  30.0 2
+#
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+77V chir_01   C21     C22     C23     N20   both
+#
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+77V plan-1     C6 0.020
+77V plan-1     C1 0.020
+77V plan-1     C3 0.020
+77V plan-1     C5 0.020
+77V plan-1     C4 0.020
+77V plan-1     C2 0.020
+77V plan-1     C9 0.020
+77V plan-1    C24 0.020
+77V plan-1     N8 0.020
+77V plan-1     N7 0.020
+77V plan-1    N19 0.020
+77V plan-1     H1 0.020
+77V plan-1     H2 0.020
+77V plan-1     H4 0.020
+77V plan-1    H14 0.020
+77V plan-2    C18 0.020
+77V plan-2    C17 0.020
+77V plan-2    C11 0.020
+77V plan-2    C10 0.020
+77V plan-2    C15 0.020
+77V plan-2    C13 0.020
+77V plan-2    N12 0.020
+77V plan-2    N14 0.020
+77V plan-2    N19 0.020
+77V plan-2    O16 0.020
+77V plan-2     H3 0.020
+77V plan-2     H5 0.020
+77V plan-2    N20 0.020
+77V plan-3    C15 0.020
+77V plan-3    C21 0.020
+77V plan-3    N20 0.020
+77V plan-3    H16 0.020
