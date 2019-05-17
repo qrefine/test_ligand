@@ -1,5 +1,3 @@
-commands:
-
 phenix.fetch_pdb 4cjl --mtz ----4cjl.pdb 4cjl.mtz
 
 phenix.ready_set 4cjl.pdb ----9PA.cif
