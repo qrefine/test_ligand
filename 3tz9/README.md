@@ -1,10 +1,8 @@
-Problem 1: 3tz9 have the ligand AQU, but the phenix database don't have the reatraints ligand AQU.
+Q1: 3tz9 have the ligand AQU, but the phenix database don't have the reatraints ligand AQU.
 
-Problem 2: AQU_download_from_www.rcsb.org(69 atoms)
+Q2: The ligand AQU lost 4 hydrogens afier doing refinement.
 
-3tz9_refine_001_complete.pdb_modified.pdb_modified.pdb(65 atoms)
-
-The ligand AQU lost 4 hydrogens afier doing refinement.
+AQU_download_from_www.rcsb.org(69 atoms), 3tz9_refine_001_complete.pdb_modified.pdb_modified.pdb(65 atoms)
 
 commands:
 
