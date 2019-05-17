@@ -1,3 +1,7 @@
+Q1: The ligand R3Z lost 3 hydrogens afier doing refinement.
+
+R3Z_download_from_www.rcsb.org(38 atoms), 5fv7_refine_001_complete.pdb_modified.pdb_modified.pdb(35 atoms)
+
 commands:
 
 1. phenix.fetch_pdb 5fv7 --mtz    ----5fv7.pdb 5fv7.mtz
@@ -10,4 +14,4 @@ commands:
 
 5. phenix.pdbtools 5fv7_refine_001_complete.pdb modify.selection="element H" occupancies.set=0 --  5fv7_refine_001_complete.pdb_modified.pdb
 
-6. phenix.pdbtools 5fv7_refine_001_complete.pdb_modified.pdb keep="resname R3Z" ----5fv7_refine_001_complete.pdb_modified.pdb_modified.pdb
+6. phenix.pdbtools 5fv7_refine_001_complete.pdb_modified.pdb keep="resname R3Z" ----5fv7_refine_001_complete.pdb_modified.pdb_modified.pdb(35 atoms)
