@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-phenix.pdbtools tools for PDB model manipulations.
-**************************************************
-Traceback (most recent call last):
-  File "/home/holly/phenix-1.15.2-3472/build/../modules/cctbx_project/mmtbx/command_line/pdbtools.py", line 151, in <module>
-    assert run(args=sys.argv[1:]) is None # assert here is intentional
-  File "/home/holly/phenix-1.15.2-3472/build/../modules/cctbx_project/mmtbx/command_line/pdbtools.py", line 105, in run
-    pdbout = os.path.basename(inputs.pdb_file_names[0])
-IndexError: list index out of range
