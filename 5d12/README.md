@@ -1,5 +1,10 @@
-5d12 have ligand G97, but the phenix database don't have the reatraints ligand G97.
+Q1: 5d12 have ligand G97, but the phenix database don't have the reatraints ligand G97.
 
+Q2: The ligand G97 lost 3 hydrogens afier doing refinement.
+
+G97_download_from_www.rcsb.org(46 atoms), 3tz9_refine_001_complete.pdb_modified.pdb_modified.pdb(43 atoms)
+
+commands:
 
 1. phenix.fetch_pdb 5d12 --mtz     ----5d12.pdb 5d12.mtz
 
