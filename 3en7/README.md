@@ -1,6 +1,6 @@
 ABJ_download_from_www.rcsb.org(37 atoms)
 3en7_refine_001_complete.pdb_modified.pdb_modified.pdb(35 atoms)
-Ligand ABJ afier doing refine lost 2 hydrogens
+Ligand ABJ afier doing refine lost 2 hydrogens.
 
 1. phenix.fetch_pdb 3en7 --mtz    ----3en7.pdb 3en7.mtz
 
