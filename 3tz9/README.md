@@ -6,6 +6,7 @@ Problem 2: AQU_download_from_www.rcsb.org(69 atoms)
 
 The ligand AQU lost 4 hydrogens afier doing refinement.
 
+commands:
 
 1. phenix.fetch_pdb 3tz9 --mtz    ----3tz9.pdb 3tz9.mtz
 
