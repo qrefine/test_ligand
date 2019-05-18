@@ -2,7 +2,7 @@ Q1: 5lwe have the ligand 79K, but the phenix database don't have the reatraints 
 
 Q2: The ligand 79k lost 2 hydrogens afier doing refinement.
 
-79K_download_from_www.rcsb.org(53 atoms), 5lwe_refine_001_complete.pdb_modified.pdb_modified.pdb(51 atoms)
+79K_download_from_www.rcsb.org (53 atoms), 5lwe_refine_001_complete.pdb_modified.pdb_modified.pdb(51 atoms)
 
 commands:
 
