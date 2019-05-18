@@ -1,6 +1,6 @@
 Q1: The ligand R3Z lost 3 hydrogens afier doing refinement.
 
-R3Z_download_from_www.rcsb.org(38 atoms), 5fv7_refine_001_complete.pdb_modified.pdb_modified.pdb(35 atoms)
+R3Z_download_from_www.rcsb.org (38 atoms), 5fv7_refine_001_complete.pdb_modified.pdb_modified.pdb(35 atoms)
 
 commands:
 
