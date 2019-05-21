@@ -6,7 +6,7 @@ commands:
 
 1. phenix.fetch_pdb 3en7 --mtz    ----3en7.pdb 3en7.mtz
 
-2. phenix.ready_set 3en7.pdb    ----ABJ.cif ABJ.pdb
+2. phenix.ready_set 3en7.pdb    ----ABJ.cif ABJ.pdb（35 atoms, created by elbow）
 
 3. phenix.refine 3en7.pdb 3en7.mtz ABJ.cif    ----3en7_refine_001.pdb 3en7_refine_001.mtz
 
