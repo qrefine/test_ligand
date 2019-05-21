@@ -1,4 +1,4 @@
-Q: The ligand 9PA lost 2 hydrogens afier doing refinement. Atually, the hydrogeng lost after elbow.
+Q: The ligand 9PA lost 2 hydrogens afier doing refinement. Atually, the hydrogens lost after elbow.
 
 9PA_download_from_www.rcsb.org (58 atoms), 4cjl_refine_001_complete.pdb_modified.pdb_modified.pdb(56 atoms)
 
