@@ -1,4 +1,4 @@
-Q: The ligand 9PA lost 2 hydrogens afier doing refinement.
+Q: The ligand 9PA lost 2 hydrogens afier doing refinement. Atually, the hydrogeng lost after elbow.
 
 9PA_download_from_www.rcsb.org(58 atoms), 4cjl_refine_001_complete.pdb_modified.pdb_modified.pdb(56 atoms)
 
@@ -6,7 +6,7 @@ commands:
 
 1. phenix.fetch_pdb 4cjl --mtz    ----4cjl.pdb 4cjl.mtz
 
-2. phenix.ready_set 4cjl.pdb    ----9PA.cif 9PA.pdb
+2. phenix.ready_set 4cjl.pdb    ----9PA.cif 9PA.pdb(56 atoms, created by elbow)
 
 3. phenix.refine 4cjl.pdb 4cjl.mtz 9PA.cif    ----4cjl_refine_001.pdb 4cjl_refine_001.mtz
 
