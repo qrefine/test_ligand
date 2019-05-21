@@ -1,6 +1,6 @@
 Q: The ligand ABJ lost 2 hydrogens afier doing refinement.
 
-ABJ_download_from_www.rcsb.org(37 atoms), 3en7_refine_001_complete.pdb_modified.pdb_modified.pdb(35 atoms)
+ABJ_download_from_www.rcsb.org (37 atoms), 3en7_refine_001_complete.pdb_modified.pdb_modified.pdb(35 atoms)
 
 commands:
 
