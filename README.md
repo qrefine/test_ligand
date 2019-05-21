@@ -1,5 +1,5 @@
 # test_ligand
-We only tested the ligand(chromophore) non covalent bonding with protein, some of the ligand don't have enough hydrogens after doing refinement.
+We only tested the ligand(chromophore) non covalent bonding with protein, some of the ligand don't have enough hydrogens after doing refinement, actually, the hydrogeng lost after elbow.
 
 4cjl resolution: 1.77Å  total atomic number: 2744	  ligand: 9PA	total atomic number: 56(lost 2 H)
 
