@@ -1,4 +1,4 @@
-Q: The ligand ABJ lost 2 hydrogens afier doing refinement. Atually, the hydrogeng lost after elbow.
+Q: The ligand ABJ lost 2 hydrogens afier doing refinement. Atually, the hydrogens lost after elbow.
 
 ABJ_download_from_www.rcsb.org (37 atoms), 3en7_refine_001_complete.pdb_modified.pdb_modified.pdb(35 atoms)
 
